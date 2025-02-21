@@ -1,0 +1,27 @@
+:root{
+    --color-1: #252525;
+    --color-2: rgba(37, 37, 37, 0.8) ;
+    --color-3: rgba(37, 37, 37, 0.25) ;
+    --color-4: #FFFFFF;
+    --color-5: rgba(37, 37, 37, 0.55);
+    --color-6: #111111;
+    --color-7: #000000;
+    --color-8: #333333;
+    --color-9: #050505;
+    --color-10: #020202;
+    --color-11: #685FD4;
+    --color-12: rgba(37, 37, 37, 0.35);
+    --color-13: #080808;
+    --color-14: #E5B94B;
+    --color-15: #363830;
+    --color-16: #BEA7A7;
+    --color-17: #232323;
+    --color-18: #2F2F2F;
+    --color-19: #6BDFDA;
+    --color-20: #9AD7F3;
+    --color-21: #FEC3C7;
+}
+@font-face {
+    font-family: "example";
+    src: url(../storage/fonts/example.ttf);
+}
