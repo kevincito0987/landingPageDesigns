@@ -1,16 +1,16 @@
 :root{
     --color-1: #252525;
-    --color-2: rgba(37, 37, 37, 0.8) ;
-    --color-3: rgba(37, 37, 37, 0.25) ;
+    --color-2: #25252580 ;
+    --color-3: #25252525 ;
     --color-4: #FFFFFF;
-    --color-5: rgba(37, 37, 37, 0.55);
+    --color-5: #25252555;
     --color-6: #111111;
     --color-7: #000000;
     --color-8: #333333;
     --color-9: #050505;
     --color-10: #020202;
     --color-11: #685FD4;
-    --color-12: rgba(37, 37, 37, 0.35);
+    --color-12: #25252535;
     --color-13: #080808;
     --color-14: #E5B94B;
     --color-15: #363830;
@@ -20,7 +20,97 @@
     --color-19: #6BDFDA;
     --color-20: #9AD7F3;
     --color-21: #FEC3C7;
+    --color-22: #D9D9D9;
+    --color-23: #4F4F4F;
+    --color-24: #F0C3D2;
+    --color-25: #25252545;
+    --color-26: #EE5E5A;
+    --color-27: #B3CFDD;
+    --color-28: #DBAF64;
+    --color-29: #2C1001;
+    --color-30: #2A211C;
+    --color-31: #FFDE81;
+    --color-32: #49342F;
+    --color-33: #FFDD81;
+    --color-34: #FFFFFF50;
+    --color-35: #FFFFFF80;
+    --color-36: #FFFFFF70;
+    --color-37: #FFFFFF65;
+    --color-38: #0D261B;
+    --color-39: #253538;
+    --color-40: #457D61;
+    --color-41: #3D45FF;
+    --color-42: #3FFFFF;
+    --color-43: #52DC4B;
+    --color-44: #FF6E3D;
+    --color-45: #FFFF67;
+    --color-46: #25252570;
+    --color-47: #F2F2F2;
+    --color-48: #909090;
+    --color-49: #352F31;
+    --color-50: #363031;
+    --color-51: #FFFFFF35;
+    --color-52: #363032;
+    --color-53: #A36A4F;
+    --color-54: #ECDAC4;
+    --color-55: #00000020;
+    --color-56: #010625;
+    --color-57: #01062D;
+    --color-58: #0D0F1B;
+    --color-59: #100E19;
+    --color-60: #E3B635;
+    --color-61: #242424;
+    --color-62: #271908;
+    --color-63: #D4A476;
+    --color-64: #E3C3B6;
+    --color-65: #E8D9D6;
+    --color-66: #D83517;
+    --color-67: #CD292A;
+    --color-68: #080C15;
+    --color-69: #519BFD;
+    --color-70: #3088FF;
+    --color-71: #62DBE2;
+    --color-72: #6FCF97;
+    --color-73: #9B51E0;
+    --color-74: #F2C94C;
+    --color-75: #F8B3B8;
+    --color-76: #122A29;
+    --color-77: #FFFFFF15;
+    --color-78: #7EB5E1;
+    --color-79: #B79238;
+    --color-80: #EFC356;  
+    --color-81: #EFEEEE;   
+    --color-82: #F9F9F9;    
 }
+:root{
+    /* page 7 */
+    --linear-gradient-1: linear-gradient(180deg, #00000000 0%, #00000049 100%);
+    /* page 8 */
+    --linear-gradient-2: linear-gradient(180deg, #9C2004 0%, #AB2706 100%);
+    /* page 9 */
+    --linear-gradient-3: linear-gradient(180deg, #FFFFFF 0%, #FFFFFF 60%); 
+    --linear-gradient-4: linear-gradient(180deg, #C8CCCF 0%, #97A3A3 100%);
+    /* page 16 */
+    --linear-gradient-5: linear-gradient(180deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.15) 100%);
+    --linear-gradient-6: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 100%);
+    --linear-gradient-7: linear-gradient(180deg, #09212C 0%, #043E49 100%);
+    /* page 21 */
+    --linear-gradient-8: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%);
+    /* page 23 */
+    --linear-gradient-9: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.5) 100%);
+    /* page 25 */
+    --linear-gradient-10: linear-gradient(180deg, rgba(255, 253, 252, 1) 0%, rgba(255, 253, 252, 0.53) 100%);
+    /* page 26 */
+    --linear-gradient-11: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
+    /* page 27 */
+    --linear-gradient-12: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 63%, rgba(0, 0, 0, 0) 100%);
+    /* page 28 */
+    --linear-gradient-13: linear-gradient(180deg, rgba(0, 0, 0, 0) 2%, rgba(0, 0, 0, 0.37) 100%);
+    /* page 29 */
+    --linear-gradient-14: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.59) 100%);
+    --linear-gradient-15: linear-gradient(180deg, rgba(0, 0, 0, 0.43) 0%, rgba(0, 0, 0, 1) 100%, rgba(0, 0, 0, 0) 100%);
+}
+
 @font-face {
     font-family: "example";
     src: url(../storage/fonts/example.ttf);
