@@ -114,6 +114,36 @@
     --color-113: #437223;
     --color-114: #030F0E;
     --color-115: #D6EBDC;
+    --color-116: #C6D9E1;
+    --color-117: #D2EAF4;
+    --color-118: #EECFCD;
+    --color-119: #EFC48F;
+    --color-120: #000103;
+    --color-121: #FAEFE3;
+    --color-122: #FCB782;
+    --color-123: #EFAF64;
+    --color-124: #FE6E06;
+    --color-125: #FFFFFF90;
+    --color-126: #F9D866;
+    --color-127: #F9E166;
+    --color-128: #33333350;
+    --color-129: #00000025;
+    --color-130: #00000010;
+    --color-131: #181818;
+    --color-132: #FFCFAA;
+    --color-133: #FFFFFF20;
+    --color-134: #06040A;
+    --color-135: #E2E7F1;
+    --color-136: #ACACDA;
+    --color-137: #F8F8F8;
+    --color-138: #222327;
+    --color-139: #1D1E23;
+    --color-140: #EFE5E2;
+    --color-141: #FCEBC980;
+    --color-142: #F9F9F9;
+    --color-143: #F9F9F9;
+    --color-144: #F9F9F9;
+    --color-145: #F9F9F9;
 }
 :root{
     /* page 7 */
@@ -144,6 +174,18 @@
     --linear-gradient-15: linear-gradient(180deg, rgba(0, 0, 0, 0.43) 0%, rgba(0, 0, 0, 1) 100%, rgba(0, 0, 0, 0) 100%);
     /* page 36 */
     --linear-gradient-16: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
+    /* page 43 */
+    --linear-gradient-17: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 100%);
+    /* page 44 */
+    --linear-gradient-18: linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.25) 100%);
+    --linear-gradient-19: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
+    /* page 48 */
+    --linear-gradient-20:  linear-gradient(180deg, #FBD542 0%, #FAD13A 100%);
+    /* page 49 */
+    --linear-gradient-21: linear-gradient(180deg, #F8D696 0%, #EABF61 100%);
+    /* page 50 */
+    --linear-gradient-22: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.82) 100%);
+    --linear-gradient-23: linear-gradient(180deg, #BFDAE6 0%, #F7C067 100%);
 }
 
 @font-face {
