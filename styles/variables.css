@@ -140,10 +140,12 @@
     --color-139: #1D1E23;
     --color-140: #EFE5E2;
     --color-141: #FCEBC980;
-    --color-142: #F9F9F9;
-    --color-143: #F9F9F9;
-    --color-144: #F9F9F9;
-    --color-145: #F9F9F9;
+    --color-142: #FFFFFF25;
+    --color-143: #16151B;
+    --color-144: #33333340;
+    --color-145: #12141B;
+    --color-146: #E9E9E9;
+    --color-147: #0C0C0C;  
 }
 :root{
     /* page 7 */
@@ -186,6 +188,10 @@
     /* page 50 */
     --linear-gradient-22: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.82) 100%);
     --linear-gradient-23: linear-gradient(180deg, #BFDAE6 0%, #F7C067 100%);
+    /* page 51 */
+    --linear-gradient-24: linear-gradient(180deg, #1E5C60 0%, #429BA9 100%);
+    /* page 54 */
+    --linear-gradient-25: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
 }
 
 @font-face {
