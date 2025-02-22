@@ -80,7 +80,40 @@
     --color-79: #B79238;
     --color-80: #EFC356;  
     --color-81: #EFEEEE;   
-    --color-82: #F9F9F9;    
+    --color-82: #F9F9F9;   
+    --color-83: #685FD435; 
+    --color-84: #685FD425;  
+    --color-85: #8AB2DC; 
+    --color-86: #8AB2DC45; 
+    --color-87: #8AB2DC35; 
+    --color-88: #E5E50125; 
+    --color-89: #100201; 
+    --color-90: #5B57EB;
+    --color-91: #E7E7E7; 
+    --color-92: #F8D046;
+    --color-93: #FBF4DF;
+    --color-94: #C0D9DD;
+    --color-95: #F9DEEC;
+    --color-96: #FDFEFF;
+    --color-97: #FFC671;
+    --color-98: #79BBE3;
+    --color-99: #D7A94F;
+    --color-100: #EFBDD9;
+    --color-101: #F4F4F4;
+    --color-102: #B88888;
+    --color-103: #202020;
+    --color-104: #8B6F6F;
+    --color-105: #9F4343;
+    --color-106: #00000048;
+    --color-107: #A86D6D;
+    --color-108: #A88585;
+    --color-109: #6975E8;
+    --color-110: #F1C2B0;
+    --color-111: #F9EB98;
+    --color-112: #F1C2B0;
+    --color-113: #437223;
+    --color-114: #030F0E;
+    --color-115: #D6EBDC;
 }
 :root{
     /* page 7 */
@@ -109,6 +142,8 @@
     /* page 29 */
     --linear-gradient-14: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.59) 100%);
     --linear-gradient-15: linear-gradient(180deg, rgba(0, 0, 0, 0.43) 0%, rgba(0, 0, 0, 1) 100%, rgba(0, 0, 0, 0) 100%);
+    /* page 36 */
+    --linear-gradient-16: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
 }
 
 @font-face {
