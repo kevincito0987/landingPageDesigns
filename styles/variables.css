@@ -145,7 +145,8 @@
     --color-144: #33333340;
     --color-145: #12141B;
     --color-146: #E9E9E9;
-    --color-147: #0C0C0C;  
+    --color-147: #0C0C0C; 
+    --color-148: #F6F6F6;
 }
 :root{
     /* page 7 */
@@ -195,6 +196,14 @@
 }
 
 @font-face {
-    font-family: "example";
-    src: url(../storage/fonts/example.ttf);
+    font-family: "Playfair_Display-Bold";
+    src: url(../src/fonts/Playfair_Display/static/PlayfairDisplay-Bold.ttf);
+}
+@font-face {
+    font-family: "WorkSans-Regular";
+    src: url(../src/fonts/Work_Sans/static/WorkSans-Regular.ttf);
+}
+@font-face {
+    font-family: "WorkSans-Medium";
+    src: url(../src/fonts/Work_Sans/static/WorkSans-Medium.ttf);
 }

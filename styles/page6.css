@@ -5,15 +5,30 @@
     padding: 0;
     box-sizing: border-box;
 }
+main {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 100%;
+    background-color: aqua;
+}
+.left-section {
+    display: flex;
+    flex-direction: column;
+    width: 653px;
+    height: 804.25px;
+    background-color: red;
+    margin: 64px 24px 64px 200px;
+}
 /* Contenedor principal */
-.container {
+.container-icon {
     display: flex;
     justify-content: center;
     align-items: center;
     width: 101px; /* Ancho del texto circular */
     height: 102px;
     position: relative;
-    margin: 120px;
+    margin: 10px 575px 55px 10px;
   }
   
   /* Texto alrededor del círculo */
@@ -34,32 +49,32 @@
   }
   
   /* Posicionamiento del texto */
-  .circular-text span:nth-child(1) { transform: rotate(0deg) translate(50px) rotate(0deg); }
-  .circular-text span:nth-child(2) { transform: rotate(14deg) translate(50px) rotate(-14deg); }
-  .circular-text span:nth-child(3) { transform: rotate(28deg) translate(50px) rotate(-28deg); }
-  .circular-text span:nth-child(4) { transform: rotate(42deg) translate(50px) rotate(-42deg); }
-  .circular-text span:nth-child(5) { transform: rotate(56deg) translate(50px) rotate(-56deg); }
-  .circular-text span:nth-child(6) { transform: rotate(70deg) translate(50px) rotate(-70deg); }
-  .circular-text span:nth-child(7) { transform: rotate(84deg) translate(50px) rotate(-84deg); }
-  .circular-text span:nth-child(8) { transform: rotate(98deg) translate(50px) rotate(-98deg); }
-  .circular-text span:nth-child(9) { transform: rotate(112deg) translate(50px) rotate(-112deg); }
-  .circular-text span:nth-child(10) { transform: rotate(126deg) translate(50px) rotate(-126deg); }
-  .circular-text span:nth-child(11) { transform: rotate(140deg) translate(50px) rotate(-140deg); }
-  .circular-text span:nth-child(12) { transform: rotate(154deg) translate(50px) rotate(-154deg); }
-  .circular-text span:nth-child(13) { transform: rotate(168deg) translate(50px) rotate(-168deg); }
-  .circular-text span:nth-child(14) { transform: rotate(182deg) translate(50px) rotate(-182deg); }
-  .circular-text span:nth-child(15) { transform: rotate(196deg) translate(50px) rotate(-196deg); }
-  .circular-text span:nth-child(16) { transform: rotate(210deg) translate(50px) rotate(-210deg); }
-  .circular-text span:nth-child(17) { transform: rotate(224deg) translate(50px) rotate(-224deg); }
-  .circular-text span:nth-child(18) { transform: rotate(238deg) translate(50px) rotate(-238deg); }
-  .circular-text span:nth-child(19) { transform: rotate(252deg) translate(50px) rotate(-252deg); }
-  .circular-text span:nth-child(20) { transform: rotate(266deg) translate(50px) rotate(-266deg); }
-  .circular-text span:nth-child(21) { transform: rotate(280deg) translate(50px) rotate(-280deg); }
-  .circular-text span:nth-child(22) { transform: rotate(294deg) translate(50px) rotate(-294deg); }
-  .circular-text span:nth-child(23) { transform: rotate(308deg) translate(50px) rotate(-308deg); }
-  .circular-text span:nth-child(24) { transform: rotate(322deg) translate(50px) rotate(-322deg); }
-  .circular-text span:nth-child(25) { transform: rotate(336deg) translate(50px) rotate(-336deg); }
-  .circular-text span:nth-child(26) { transform: rotate(350deg) translate(50px) rotate(-350deg); /* Coma */ }
+  .circular-text span:nth-child(1) { transform: rotate(0deg) translate(40px) rotate(0deg); }
+  .circular-text span:nth-child(2) { transform: rotate(14deg) translate(40px) rotate(-14deg); }
+  .circular-text span:nth-child(3) { transform: rotate(28deg) translate(40px) rotate(-28deg); }
+  .circular-text span:nth-child(4) { transform: rotate(42deg) translate(40px) rotate(-42deg); }
+  .circular-text span:nth-child(5) { transform: rotate(56deg) translate(40px) rotate(-56deg); }
+  .circular-text span:nth-child(6) { transform: rotate(70deg) translate(40px) rotate(-70deg); }
+  .circular-text span:nth-child(7) { transform: rotate(84deg) translate(40px) rotate(-84deg); }
+  .circular-text span:nth-child(8) { transform: rotate(98deg) translate(40px) rotate(-98deg); }
+  .circular-text span:nth-child(9) { transform: rotate(112deg) translate(40px) rotate(-112deg); }
+  .circular-text span:nth-child(10) { transform: rotate(126deg) translate(40px) rotate(-126deg); }
+  .circular-text span:nth-child(11) { transform: rotate(140deg) translate(40px) rotate(-140deg); }
+  .circular-text span:nth-child(12) { transform: rotate(154deg) translate(40px) rotate(-154deg); }
+  .circular-text span:nth-child(13) { transform: rotate(168deg) translate(40px) rotate(-168deg); }
+  .circular-text span:nth-child(14) { transform: rotate(182deg) translate(40px) rotate(-182deg); }
+  .circular-text span:nth-child(15) { transform: rotate(196deg) translate(40px) rotate(-196deg); }
+  .circular-text span:nth-child(16) { transform: rotate(210deg) translate(40px) rotate(-210deg); }
+  .circular-text span:nth-child(17) { transform: rotate(224deg) translate(40px) rotate(-224deg); }
+  .circular-text span:nth-child(18) { transform: rotate(238deg) translate(40px) rotate(-238deg); }
+  .circular-text span:nth-child(19) { transform: rotate(252deg) translate(40px) rotate(-252deg); }
+  .circular-text span:nth-child(20) { transform: rotate(266deg) translate(40px) rotate(-266deg); }
+  .circular-text span:nth-child(21) { transform: rotate(280deg) translate(40px) rotate(-280deg); }
+  .circular-text span:nth-child(22) { transform: rotate(294deg) translate(40px) rotate(-294deg); }
+  .circular-text span:nth-child(23) { transform: rotate(308deg) translate(40px) rotate(-308deg); }
+  .circular-text span:nth-child(24) { transform: rotate(322deg) translate(40px) rotate(-322deg); }
+  .circular-text span:nth-child(25) { transform: rotate(336deg) translate(40px) rotate(-336deg); }
+  .circular-text span:nth-child(26) { transform: rotate(350deg) translate(40px) rotate(-350deg); /* Coma */ }
   
   /* Estilo del círculo */
   .circle {
@@ -71,3 +86,70 @@
     background-repeat: no-repeat;
   }
   
+.detail {
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+    height: 400px;
+    margin: 0 0 0px 24px;
+}
+.detail h1 {
+    font-family: "Playfair_Display-Bold";
+    font-size: 64px;
+    width: 629px;
+    height: 240px;
+    color: var(--color-9);
+    margin: 10px;
+}
+.detail p {
+    font-family: "WorkSans-Regular";
+    font-size: 29px;
+    width: 629px;
+    height: 144px;
+    color: var(--color-8);
+    line-height: 1;
+    margin: 33px 0 0 10px;
+}
+.links {
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    width: 505px;
+    height: 66px;
+    margin: 33px 0 0 10px;
+}
+.links a:nth-child(1) {
+    text-decoration: none;
+    width: 219px;
+    height: 66px;
+    background-color: var(--color-9);
+    border-radius: 16px;
+    color: var(--color-4);
+    font-family: "WorkSans-Medium";
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.links a:nth-child(2) {
+    text-decoration: none;
+    width: 219px;
+    height: 66px;
+    background-color: var(--color-148);
+    border-radius: 16px;
+    color: var(--color-8);
+    font-family: "WorkSans-Medium";
+    font-size: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-container {
+    display: flex;
+    flex-direction: row;
+    gap: 56px;
+    width: 652px;
+    height: 118px;
+    margin: 180px 5px 64px 1px;
+    background: aquamarine;
+}
