@@ -5,3 +5,67 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* Contenedor principal */
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    position: relative;
+  }
+  
+  /* Texto alrededor del círculo */
+  .circular-text {
+    position: absolute;
+    width: 300px; /* Ancho del texto circular */
+    height: 300px; /* Altura del texto circular */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .circular-text span {
+    position: absolute;
+    font-size: 12px;
+    color: black;
+    transform-origin: center;
+  }
+  
+  /* Posicionamiento del texto */
+  .circular-text span:nth-child(1) { transform: rotate(0deg) translate(140px) rotate(0deg); }
+  .circular-text span:nth-child(2) { transform: rotate(14deg) translate(140px) rotate(-14deg); }
+  .circular-text span:nth-child(3) { transform: rotate(28deg) translate(140px) rotate(-28deg); }
+  .circular-text span:nth-child(4) { transform: rotate(42deg) translate(140px) rotate(-42deg); }
+  .circular-text span:nth-child(5) { transform: rotate(56deg) translate(140px) rotate(-56deg); }
+  .circular-text span:nth-child(6) { transform: rotate(70deg) translate(140px) rotate(-70deg); }
+  .circular-text span:nth-child(7) { transform: rotate(84deg) translate(140px) rotate(-84deg); }
+  .circular-text span:nth-child(8) { transform: rotate(98deg) translate(140px) rotate(-98deg); }
+  .circular-text span:nth-child(9) { transform: rotate(112deg) translate(140px) rotate(-112deg); }
+  .circular-text span:nth-child(10) { transform: rotate(126deg) translate(140px) rotate(-126deg); }
+  .circular-text span:nth-child(11) { transform: rotate(140deg) translate(140px) rotate(-140deg); }
+  .circular-text span:nth-child(12) { transform: rotate(154deg) translate(140px) rotate(-154deg); }
+  .circular-text span:nth-child(13) { transform: rotate(168deg) translate(140px) rotate(-168deg); }
+  .circular-text span:nth-child(14) { transform: rotate(182deg) translate(140px) rotate(-182deg); }
+  .circular-text span:nth-child(15) { transform: rotate(196deg) translate(140px) rotate(-196deg); }
+  .circular-text span:nth-child(16) { transform: rotate(210deg) translate(140px) rotate(-210deg); }
+  .circular-text span:nth-child(17) { transform: rotate(224deg) translate(140px) rotate(-224deg); }
+  .circular-text span:nth-child(18) { transform: rotate(238deg) translate(140px) rotate(-238deg); }
+  .circular-text span:nth-child(19) { transform: rotate(252deg) translate(140px) rotate(-252deg); }
+  .circular-text span:nth-child(20) { transform: rotate(266deg) translate(140px) rotate(-266deg); }
+  .circular-text span:nth-child(21) { transform: rotate(280deg) translate(140px) rotate(-280deg); }
+  .circular-text span:nth-child(22) { transform: rotate(294deg) translate(140px) rotate(-294deg); }
+  .circular-text span:nth-child(23) { transform: rotate(308deg) translate(140px) rotate(-308deg); }
+  .circular-text span:nth-child(24) { transform: rotate(322deg) translate(140px) rotate(-322deg); }
+  .circular-text span:nth-child(25) { transform: rotate(336deg) translate(140px) rotate(-336deg); }
+  .circular-text span:nth-child(26) { transform: rotate(350deg) translate(140px) rotate(-350deg); /* Coma */ }
+  
+  /* Estilo del círculo */
+  .circle {
+    width: 120px; /* Ajusta según sea necesario */
+    height: 120px;
+    background-color: black;
+    border-radius: 50%;
+    position: absolute;
+  }
+  
