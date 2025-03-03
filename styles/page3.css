@@ -1,3 +1,5 @@
+@import url(./variables.css);
+
 * {
     margin: 0;
     padding: 0;
@@ -5,5 +7,57 @@
 }
 
 main {
-    background-color: aqua;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+}
+
+.text-section {
+    display: flex;
+    flex-direction: row;
+    gap: 150px;
+    width: 1313px;
+    height: 174px;
+    margin: 122px 0px 60px 24px;
+}
+.text-section h1 {
+    font-size: 68px;
+    font-family: "Avenir-Heavy";
+    width: 674px;
+    height: 80px;
+    top: 0;
+}
+.text-section .description {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+    top: 0;
+    width: 526px;
+    font-family: "Avenir-Roman";
+    font-size: 26px;
+    line-height: 1.2;
+}
+.links {
+    text-decoration: none;
+    width: 157px;
+    height: 50px;
+    background-color: var(--color-1);
+    border-radius: 16px;
+    color: var(--color-4);
+    font-family: "Avenir-Roman";
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.img-section {
+    display: flex;
+    justify-content: center;
+    background-image: url("../src/img/page3/1Page3.png");
+    align-items: center;
+    width: 1313px;
+    height: 732px;
+    background-repeat: no-repeat;
+    margin: 60px 10px 56px 20px;
+    position: relative;
 }

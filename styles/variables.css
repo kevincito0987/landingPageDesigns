@@ -195,6 +195,10 @@
 }
 
 @font-face {
-    font-family: "example";
-    src: url(../storage/fonts/example.ttf);
+    font-family: "Avenir-Heavy";
+    src: url(../src/fonts/Avenir/Avenir-Heavy.ttf);
+}
+@font-face {
+    font-family: "Avenir-Roman";
+    src: url(../src/fonts/Avenir/Avenir-Roman.ttf);
 }
