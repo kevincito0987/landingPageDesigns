@@ -11,6 +11,8 @@ main {
     flex-direction: column;
     width: 100%;
     height: 100%;
+    align-items: center;
+    justify-content: center;
 }
 .title-section {
     width: 833px;
@@ -19,4 +21,93 @@ main {
     font-family: "Avenir-Heavy";
     font-size: 46px;
     color: var(--color-1);
+}
+
+.card-container {
+    display: flex;
+    flex-direction: row;
+    gap: 19px;
+    width: 1312px;
+    height: 559px;
+    margin: 64px 64px 63px 64px;
+}
+.card-title {
+    font-family: "Avenir-Heavy";
+    font-size: 40px;
+    color: var(--color-12);
+    margin: 0 0 12px 0;
+    width: 316px;
+    height: 55px;
+}
+.card-text {
+    font-family: "Avenir-Roman";
+    font-size: 16px;
+    color: var(--color-2);
+    margin: 0 0 24px 0;
+    width: 316px;
+    height: 66px;
+}
+
+.card-image1 {
+    display: flex;
+    flex-direction: column;
+    width: 316px;
+    height: 402px;
+    border-radius: 24px;
+    background-image: url("../src/img/page7/1Page7.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.context {
+    display: flex;
+    flex-direction: column;
+    width: 317px;
+    height: 147px;
+    padding: 255px 20px 0px 20px;
+}
+.context h3 {
+    font-family: "Avenir-Roman";
+    font-size: 24px;
+    color: var(--color-1);
+    margin: 24px 255px 0 24px;
+    width: 48px;
+    height: 33px;
+}
+.context p {
+    font-family: "Avenir-Roman";
+    font-size: 16px;
+    color: var(--color-2);
+    margin: 0 80px 0 24px;
+    width: 213px;
+    height: 66px;
+}
+.card-image2 {
+    display: flex;
+    flex-direction: column;
+    width: 316px;
+    height: 402px;
+    border-radius: 24px;
+    background-image: url("../src/img/page7/2Page7.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card-image3 {
+    display: flex;
+    flex-direction: column;
+    width: 316px;
+    height: 402px;
+    border-radius: 24px;
+    background-image: url("../src/img/page7/4Page7.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.card-image4 {
+    display: flex;
+    flex-direction: column;
+    width: 316px;
+    height: 402px;
+    border-radius: 24px;
+    background-image: url("../src/img/page7/3Page7.png");
+    background-repeat: no-repeat;
+    background-size: cover;
 }
