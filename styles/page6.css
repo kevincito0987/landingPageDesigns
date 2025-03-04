@@ -18,7 +18,7 @@ main {
     width: 653px;
     height: 804.25px;
     background-color: red;
-    margin: 64px 24px 64px 200px;
+    margin: 64px 24px 64px 60px;
 }
 /* Contenedor principal */
 .container-icon {
@@ -28,7 +28,7 @@ main {
     width: 101px; /* Ancho del texto circular */
     height: 102px;
     position: relative;
-    margin: 10px 575px 55px 10px;
+    margin: 70px 575px 55px 10px;
   }
   
   /* Texto alrededor del círculo */
@@ -147,9 +147,33 @@ main {
 .card-container {
     display: flex;
     flex-direction: row;
-    gap: 56px;
+    gap: 30px;
     width: 652px;
     height: 118px;
-    margin: 180px 5px 64px 1px;
+    margin: 160px 2px 64px 1px;
     background: aquamarine;
+    border-radius: 24px;
+    border-style: solid;
+    border-width: 1px;
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 91px;
+    height: 70px;
+    border-radius: 16px;
+    margin: 24px;
+}
+.card-image {
+    width: 24px;
+    height: 24px;
+    border-radius: 16px;
+}
+.card-text {
+    font-family: "WorkSans-Regular";
+    font-size: 16px;
+    color: var(--color-6);
+    margin: 0;
+    width: 91px;
+    height: 38px;
 }
