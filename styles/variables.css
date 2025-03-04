@@ -195,6 +195,14 @@
 }
 
 @font-face {
-    font-family: "example";
-    src: url(../storage/fonts/example.ttf);
+    font-family: "WorkSans-Bold";
+    src: url(../src/fonts/Work_Sans/static/WorkSans-Bold.ttf);
+}
+@font-face {
+    font-family: "WorkSans-Light";
+    src: url(../src/fonts/Work_Sans/static/WorkSans-Light.ttf);
+}
+@font-face {
+    font-family: "WorkSans-Medium";
+    src: url(../src/fonts/Work_Sans/static/WorkSans-Medium.ttf);
 }
