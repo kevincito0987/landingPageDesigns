@@ -183,6 +183,36 @@ main {
     margin: 62px 63px 93px 24px;
     position: relative;
 }
+.tag1 {
+    width: 256px;
+    height: 60px;
+    margin: 619px 347.31px 99.19px 32px;
+    position: absolute;
+    background: var(--color-11);
+    border-radius: 16px;
+    font-family: "WorkSans-Regular";
+    font-size: 24px;
+    color: var(--color-4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1;
+}
+.tag2 {
+    width: 252px;
+    height: 53px;
+    margin: 136px 0.31px 589.19px 383px;
+    position: absolute;
+    background: var(--color-11);
+    border-radius: 16px;
+    font-family: "WorkSans-Regular";
+    font-size: 18px;
+    color: var(--color-4);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+}
 .image3 {
     width: 135.85px;
     height: 135.85px;
