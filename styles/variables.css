@@ -195,6 +195,10 @@
 }
 
 @font-face {
-    font-family: "example";
-    src: url(../storage/fonts/example.ttf);
+    font-family: "Propins-Bold";
+    src: url(../src/fonts/Poppins/Poppins-Bold.ttf);
+}
+@font-face {
+    font-family: "Propins-Regular";
+    src: url(../src/fonts/Poppins/Poppins-Regular.ttf);
 }

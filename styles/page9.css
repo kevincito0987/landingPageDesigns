@@ -4,3 +4,89 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+main {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, #C8CCCF 0%, #97A3A3 100%);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title {
+    display: flex;
+    flex-direction: column;
+    width: 756px;
+    height: 310px;
+    justify-content: center;
+    align-items: center;
+    margin: 64px 389px 552px 295px;
+    position: absolute;
+    z-index: 1;
+}
+.title h1 {
+    font-family: "Propins-Bold";
+    font-size: 88px;
+    color: var(--color-15);
+    width: 756px;
+    height: 104px;
+    margin-bottom: 36px;
+}
+.title p {
+    font-family: "Propins-Regular";
+    font-size: 24px;
+    color: var(--color-15);
+    width: 659px;
+    height: 108px;
+    margin-right: 97px;
+}
+.title a {
+    text-decoration: none;
+    width: 182px;
+    height: 66px;
+    background-color: var(--color-15);
+    border-radius: 36px;
+    color: var(--color-4);
+    font-family: "WorkSans-Medium";
+    font-size: 32px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 16px 574px 0 0;
+}
+
+.image1 {
+    position: relative;
+    width: 462px;
+    height: 508px;
+    margin: 418px 914px 0px 64px;
+}
+.image2 {
+    position: absolute;
+    width: 537.4px;
+    height: 512px;
+    margin: 0 64px 414px 840px;
+}
+.card-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    gap: 88px;
+    width: 948px;
+    height: 272px;
+    margin: 591px 64px 43px 428px;
+    border-radius: 144px;
+    z-index: 1;
+    background: linear-gradient(80deg, #C8CCCF 0%, #97A3A3 100%);
+}
+.card {
+    display: flex;
+    flex-direction: column;
+    width: 204px;
+    height: 192px;
+    margin: 80px 0 0 0;
+}
