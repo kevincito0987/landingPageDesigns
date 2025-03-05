@@ -195,6 +195,18 @@
 }
 
 @font-face {
-    font-family: "example";
-    src: url(../storage/fonts/example.ttf);
+    font-family: "Propins-Bold";
+    src: url(../src/fonts/Poppins/Poppins-Bold.ttf);
+}
+@font-face {
+    font-family: "Propins-Light";
+    src: url(../src/fonts/Poppins/Poppins-Light.ttf);
+}
+@font-face {
+    font-family: "Propins-Regular";
+    src: url(../src/fonts/Poppins/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: "Propins-SemiBold";
+    src: url(../src/fonts/Poppins/Poppins-SemiBold.ttf);
 }
