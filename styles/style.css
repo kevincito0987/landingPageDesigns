@@ -93,7 +93,6 @@ li:active a {
     margin: 50px 100px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
-    background: aqua;
 }
 
 /* Ocultar todas las tarjetas por defecto */
@@ -131,3 +130,31 @@ li:active a {
     flex-direction: column;
 }
 
+.card-title {
+    font-size: 30px;
+    color: var(--color-96);
+    font-family: "Monserrat-Bold";
+    margin: 10px 20px;
+}
+.card-text {
+    font-size: 20px;
+    color: var(--color-147);
+    font-family: "Lato-Bold";
+    margin: 10px 20px;
+}
+.card-button {
+    background-color: var(--color-26);
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 30px 20px;
+    text-decoration: none;
+    color: var(--color-6);
+    font-family: "Helvetica-Regular";
+    font-size: 16px;
+    border-radius: 30px;
+    width: 200px;
+    height: 40px;
+    color: var(--color-22);
+}

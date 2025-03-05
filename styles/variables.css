@@ -156,3 +156,11 @@
     font-family: "Helvetica-Regular";
     src: url(../src/fonts/helvetica/Helvetica.ttf);
 }
+@font-face {
+    font-family: "Monserrat-Bold";
+    src: url(../src/fonts/Montserrat/static/Montserrat-Bold.ttf);
+}
+@font-face {
+    font-family: "Lato-Bold";
+    src: url(../src/fonts/Lato/static/Lato-Bold.ttf);
+}
