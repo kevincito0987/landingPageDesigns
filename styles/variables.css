@@ -152,3 +152,7 @@
     font-family: "Bitter-Bold";
     src: url(../src/fonts/Bitter/static/Bitter-Bold.ttf);
 }
+@font-face {
+    font-family: "Helvetica-Regular";
+    src: url(../src/fonts/helvetica/Helvetica.ttf);
+}

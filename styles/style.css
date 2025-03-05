@@ -12,6 +12,10 @@ main{
     justify-content: center;
     height: 100%;
     width: 100%;
+    background-image: url(../src/img/pages/Onboarding.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 h1{
     font-size: 60px;
@@ -29,27 +33,25 @@ p{
 .card-container1{
     display: flex;
     flex-direction: row;
-    width: 100%;
-    width: 1200px;
     height: 100%;
     margin: 30px 20px;
     gap: 20px;
+    max-width: 100%; 
+    height: auto;
 }
 
 .nav__busqueda {
-     background: red; 
 }
 
 .nav__categoria {
     /* background: green; */
     margin: 0px 19px 0;
     display: flex;
-    overflow-x: scroll;
     gap: 14px;
 }
 
 .nav__categoria li {
-    background: var(--color-8);
+    background: var(--color-22);
     flex: 1;
     list-style: none;
     border-radius: 20px;
@@ -64,24 +66,34 @@ p{
     /* background: yellow; */
     text-decoration: none;
     color: var(--color-6);
-    font-family: "Inter_18pt-Medium";
+    font-family: "Helvetica-Regular";
     font-size: 16px;
 }
 
 li.select {
-    background: var(--color-3);
+    background: var(--color-26);
 }
 
 li.select a {
-    color: var(--color-9);
+    color: var(--color-147);
 }
 
 li:active {
-    background: var(--color-3);
+    background: var(--color-26);
 }
 
 li:active a {
-    color: var(--color-9);
+    color: var(--color-47);
 }
 
+.cards {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: none;
+    margin: 20px 19px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+}
 /******************************************/
