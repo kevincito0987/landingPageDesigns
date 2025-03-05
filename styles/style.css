@@ -90,7 +90,7 @@ li:active a {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin: 50px 200px;
+    margin: 50px 100px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
     background: aqua;
@@ -115,3 +115,19 @@ li:active a {
     padding: 10px 20px;
     text-decoration: none;
 }
+.card-image {
+    width:95%;
+    height: 20%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    margin: 20px;
+}
+.card-content {
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
