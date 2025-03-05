@@ -1,0 +1,152 @@
+@import url(variables.css);
+
+* { 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 0;
+    height: 100%;
+    height: 100%;
+}
+
+.section-left {
+    width: 637px;
+    height: 896px   ;
+    display: flex;
+    position: absolute;
+    flex-direction: column;
+    margin: 64px 739px 64px 64px;
+}
+.section-left h2 {
+    font-family: "Avenir-Heavy";
+    font-size: 85px;
+    color: var(--color-1);
+    width: 637px;
+    height: 264px;
+    line-height: 1.2;
+    margin-bottom: 84px;
+}
+.section-left p {
+    font-family: "Avenir-Roman";
+    font-size: 24px;
+    color: var(--color-2);
+    width: 519px;
+    height: 99px;
+}
+.button {
+    font-family: "Poppins-Regular";
+    font-size: 24px;
+    color: var(--color-4);
+    width: 182px;
+    height: 66px;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    background: var(--color-1);
+    border-radius: 36px;
+    margin-top: 470px;
+    text-decoration: none;
+}
+.image1 {
+    width: 133px;
+    height: 283.88px;
+    margin-top: 64px;
+    background-image: url(../src/img/page12/form1Page12.png);
+    margin: 610px 426px 2.12px 0;
+    position: absolute;
+}
+.image2 {
+    width: 316px;
+    height: 436px;
+    margin-top: 64px;
+    background-image: url(../src/img/page12/1Page12.png);
+    margin: 460px 0 0 319px;
+    position: absolute;
+    z-index: 2;
+}
+.image3 {
+    width: 355px;
+    height: 126px;
+    background-image: url(../src/img/page12/form2Page12.png);
+    margin: 27px 0 0 434px;
+    position: absolute;
+}
+.image4 {
+    width: 248px;
+    height: 248px;
+    background-image: url(../src/img/page12/form4Page12.png);
+    margin: 324px 0 324px 532px;
+    position: absolute;
+    z-index: 1;
+}
+.section-right {
+    width: 671px;
+    height: 893px   ;
+    display: flex;
+    margin: 67px 61px 64px 708px;
+}
+.image5 {
+    width: 316px;
+    height: 436px;
+    background-image: url(../src/img/page12/2Page12.png);
+    margin: 215px 340px 242px 15px;
+    position: absolute;
+}
+.image6 {
+    width: 316px;
+    height: 436px;
+    background-image: url(../src/img/page12/3Page12.png);
+    margin: 0 0 457px 355px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    position: absolute;
+}
+.image7 {
+    width: 257px;
+    height: 257px;
+    background-image: url(../src/img/page12/form3Page12.png);
+    margin: 474px 27px 162px 377px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    position: absolute;
+}
+.button2 {
+    font-family: "Poppins-Regular";
+    font-size: 24px;
+    color: var(--color-4);
+    width: 668px;
+    height: 122px;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    background: var(--color-22);
+    text-decoration: none;
+    margin: 771px 0 0 5px;
+}
+.button2 img {
+    width: 80px;
+    height: 80px;
+    margin: 21px;
+}
+.button2 p {
+    font-family: "Avenir-Roman";
+    font-size: 22px;
+    color: var(--color-2);
+    width: 516px;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+}
