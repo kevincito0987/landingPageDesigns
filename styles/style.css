@@ -35,6 +35,8 @@ main > p {
 
 .card-container {
     display: flex;
+    justify-content: center;
+    align-items: center;
     flex-direction: row;
     height: 100%;
     margin: 30px 20px;
@@ -46,8 +48,10 @@ main > p {
 .nav__busqueda {}
 
 .nav__categoria {
-    margin: 0px 19px 0;
+    margin: 20px 19px 10px 50px;
     display: flex;
+    justify-content: center;
+    align-items: center;
     gap: 14px;
 }
 
