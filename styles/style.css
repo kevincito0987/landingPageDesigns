@@ -4,3 +4,84 @@
     margin: 0;
     box-sizing: border-box;
 }
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    width: 100%;
+}
+h1{
+    font-size: 60px;
+    color: var(--color-124);
+    font-family: "Bitter-Bold";
+    margin: 40px 0;
+}
+p{
+    font-size: 20px;
+    color: var(--color-147);
+    font-family: "Bitter-Bold";
+    margin: 20px 0;
+}
+
+.card-container1{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    width: 1200px;
+    height: 100%;
+    margin: 30px 20px;
+    gap: 20px;
+}
+
+.nav__busqueda {
+     background: red; 
+}
+
+.nav__categoria {
+    /* background: green; */
+    margin: 0px 19px 0;
+    display: flex;
+    overflow-x: scroll;
+    gap: 14px;
+}
+
+.nav__categoria li {
+    background: var(--color-8);
+    flex: 1;
+    list-style: none;
+    border-radius: 20px;
+    min-width: 120px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.nav__categoria li a {
+    /* background: yellow; */
+    text-decoration: none;
+    color: var(--color-6);
+    font-family: "Inter_18pt-Medium";
+    font-size: 16px;
+}
+
+li.select {
+    background: var(--color-3);
+}
+
+li.select a {
+    color: var(--color-9);
+}
+
+li:active {
+    background: var(--color-3);
+}
+
+li:active a {
+    color: var(--color-9);
+}
+
+/******************************************/
