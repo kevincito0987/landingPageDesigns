@@ -5,3 +5,175 @@
     padding: 0; 
     box-sizing: border-box; 
 }
+
+main {
+    display: flex;
+    flex-direction: row;
+    height: 100%;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+.section-left {
+    width: 434px;
+    height: 861px   ;
+    display: flex;
+    flex-direction: column;
+    margin: 99px 0 64px 64px;
+}
+.section-left h2 {
+    font-family: "Times-Bold";
+    font-size: 24px;
+    color: var(--color-25);
+    width: 434px;
+    height: 32px;
+    margin-bottom: 8px;
+}
+.section-left p {
+    font-family: "Times-Regular";
+    font-size: 20px;
+    color: var(--color-2);
+    width: 434px;
+    height: 64px;
+    line-height: 1.5;
+}
+.image1 {
+    width: 179.91px;
+    height: 176.57px;
+    background-image: url(../src/img/page13/form1Page13.png);
+    margin: 121px 204.54px 527.83px 19.88px;
+    position: absolute;
+}
+.image2 {
+    width: 255px;
+    height: 320px;
+    background-image: url(../src/img/page13/form2Page13.png);
+    margin: 138px 0 403px 247px;
+    position: absolute;
+    z-index: 2;
+}
+.image3 {
+    width: 412px;
+    height: 528px;
+    background-image: url(../src/img/page13/1Page13.png);
+    margin:333px 22px 0 0;
+    position: absolute;
+}
+.section-middle {
+    width: 637px;
+    height: 711px   ;
+    display: flex;
+    flex-direction: column;
+    margin: 182px 0 131px 0;
+    z-index: 2;
+}
+.gradiant {
+    width: 446px;
+    height: 711px;
+    background-image: url(../src/img/page13/GradientPage13.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    z-index: 1;
+    margin: 0 96px 0 95px;
+}
+.text {
+    width: 637px;
+    height: 614px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 49px 0;
+    z-index: 2;
+}
+.text h1 {
+    font-family: "Times-Regular";
+    font-size: 116px;
+    color: var(--color-1);
+    width: 637px;
+    height: 324px;
+    line-height: 1;
+    margin-bottom: 8px;
+    text-align: center;
+}
+.text p {
+    font-family: "Times-Regular";
+    font-size: 20px;
+    color: var(--color-2);
+    width: 306px;
+    height: 128px;
+    margin: 50px 165.5px 48px 165px;
+    line-height: 1.5;
+    text-align: center;
+}
+.section-middle  a {
+    font-family: "Propins-Regular";
+    font-size: 24px;
+    color: var(--color-4);
+    width: 182px;
+    height: 66px;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    background: var(--color-1);
+    border-radius: 36px;
+    margin: 548px 227.5px 0 227.5px;
+    text-decoration: none;
+}
+.section-right {
+    width: 434px;
+    height: 852px   ;
+    display: flex;
+    flex-direction: column;
+    margin: 64px 64px 64px 0;
+}
+.image4 {
+    width: 412px;
+    height: 528px;
+    background-image: url(../src/img/page13/2Page13.png);
+    margin: 0 0 0 22px;
+    position: absolute;
+}
+.image5 {
+    width: 191px;
+    height: 242px;
+    background-image: url(../src/img/page13/form3Page13.png);
+    margin: 450px 264px 139px -50px;
+    position: absolute;
+    z-index: 3;
+}
+.image6 {
+    width: 174px;
+    height: 174px;
+    background-image: url(../src/img/page13/form4Page13.png);
+    margin: 583px 67px 95.49px 193px;
+    position: absolute;
+}
+.text2 {
+    width: 434px;
+    height: 104px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 748px;
+}
+.text2 h2 {
+    font-family: "Times-Bold";
+    font-size: 24px;
+    color: var(--color-25);
+    width: 434px;
+    height: 32px;
+    margin-bottom: 8px;
+}
+.text2 p {
+    font-family: "Times-Regular";
+    font-size: 20px;
+    color: var(--color-2);
+    width: 434px;
+    height: 64px;
+    line-height: 1.5;
+}

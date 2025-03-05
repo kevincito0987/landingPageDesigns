@@ -195,6 +195,26 @@
 }
 
 @font-face {
-    font-family: "example";
-    src: url(../storage/fonts/example.ttf);
+    font-family: "Avenir-Heavy";
+    src: url(../src/fonts/Avenir/Avenir-Heavy.ttf);
+}
+@font-face {
+    font-family: "Avenir-Roman";
+    src: url(../src/fonts/Avenir/Avenir-Roman.ttf);
+}
+@font-face {
+    font-family: "Propins-Regular";
+    src: url(../src/fonts/Poppins/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: "Avenir-Book";
+    src: url(../src/fonts/Avenir/Avenir-Book.ttf);
+}
+@font-face {
+    font-family: "Times-Bold";
+    src: url(../src/fonts/Times/Times-Bold.ttf);
+}
+@font-face {
+    font-family: "Times-Regular";
+    src: url(../src/fonts/Times/Times-Regular.ttf);
 }
