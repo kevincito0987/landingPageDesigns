@@ -206,3 +206,7 @@
     font-family: "Propins-Regular";
     src: url(../src/fonts/Poppins/Poppins-Regular.ttf);
 }
+@font-face {
+    font-family: "Avenir-Book";
+    src: url(../src/fonts/Avenir/Avenir-Book.ttf);
+}
