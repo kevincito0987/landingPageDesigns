@@ -1,0 +1,139 @@
+@import url(variables.css);
+
+* { 
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box; 
+}
+body {
+    background: var(--color-47);
+}
+main {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    height: 100%;
+    align-items: center;
+}
+
+.section1 {
+    width: 695x;
+    height: 297px   ;
+    display: flex;
+    flex-direction: column;
+    margin: 64px 387px 1327px 358px;
+    position: absolute;
+    text-align: center;
+}
+.section1 h1 {
+    font-family: "Propins-SemiBold";
+    font-size: 56px;
+    color: var(--color-1);
+    width: 695px;
+    height: 84px;
+    margin: 0 0 24px 0;
+}
+.section1 p {
+    font-family: "Avenir-Roman";
+    font-size: 24px;
+    color: var(--color-2);
+    width: 689px;
+    height: 99px;
+    margin: 0 0 24px 0;
+}
+.section1 a {
+    font-family: "Propins-Regular";
+    font-size: 24px;
+    color: var(--color-4);
+    width: 182px;
+    height: 66px;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    background: var(--color-1);
+    border-radius: 36px;
+    margin: 230px 256.5px 56px 256.5px;
+    text-decoration: none;
+}
+.card-container {
+    width: 1048px;
+    height: 191px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    background: var(--color-4);
+    border-radius: 48px;
+    margin: 417px 196px 867px 196px;
+    position: absolute;
+    gap: 64px;
+    background: var(--color-4);
+    z-index: 1;
+}
+.card1 {
+    margin-left: 20px;
+}
+.title {
+    width: 71px;
+    height: 33px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 12px;
+    font-family: "Avenir-Heavy";
+    font-size: 24px;
+    color: var(--color-1);
+}
+.slider {
+    width: 66px;
+    height: 4px;
+    background: var(--color-1);
+    margin: 12px 0 12px 0;
+}
+.card-text {
+    width: 178px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Avenir-Roman";
+    font-size: 18.5px;
+}
+
+.section3 {
+    width: 1312px;
+    height: 526px   ;
+    background: var(--color-4);
+    border-radius: 24px;
+    position: absolute;
+    margin: 504px 64px 445px 64px;
+    background-image: url(../src/img/page17/1Page17.png);
+}
+.section4 {
+    width: 1312px;
+    height: 344px   ;
+    border-radius: 24px;
+    position: absolute;
+    margin: 1070px 63px 20px 64px;
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+}
+.image1 {
+    width: 411px;
+    height: 344px;
+    background-image: url(../src/img/page17/2Page17.png);
+}
+.image2 {
+    width: 411px;
+    height: 344px;
+    background-image: url(../src/img/page17/3Page17.png);
+}
+.image3 {
+    width: 411px;
+    height: 344px;
+    background-image: url(../src/img/page17/4Page17.png);
+}
