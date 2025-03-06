@@ -149,6 +149,10 @@
 }
 
 @font-face {
+    font-family: "Times-Regular";
+    src: url(../src/fonts/Times/TypographyTimesRegular.ttf);
+}
+@font-face {
     font-family: "Propins-Bold";
     src: url(../src/fonts/Poppins/Poppins-Bold.ttf);
 }
