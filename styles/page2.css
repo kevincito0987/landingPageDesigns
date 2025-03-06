@@ -1,0 +1,95 @@
+@import url(variables.css);
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+main {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container__top {
+    width: 1312px;
+    height: 632px;
+    display: flex;
+    flex-direction: row;
+    margin: 64px 415px 20px 415px;
+    align-items: center;
+    justify-content: center;
+}
+.object1 {
+    width: 444px;
+    height: 480px;
+}
+.object1 h2 {
+    font-family: "Avenir-Heavy";
+    color: var(--color-1);
+    font-size: 56px;
+    height: 231px;
+}
+.object1 p {
+    font-family: "Avenir-Roman";
+    color: var(--color-2);
+    font-size: 26px;
+    width: 386px;
+    height: 144px;
+}
+.object1 a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 157px;
+    height: 50px;
+    background : var(--color-1);
+    color: var(--color-4);
+    font-family: "Avenir-Roman";
+    text-decoration: none;
+    border-radius: 16px;
+    margin: 24px 287px 0px 0;
+}
+.object2 {
+    background-image: url(../src/img/page2/1Page2.png);
+    width: 408px;
+    height: 473px;
+    margin: 0 35px 152px 0;
+    border-radius: 16px;
+}
+.object3 {
+    background-image: url(../src/img/page2/2Page2.png);
+    width: 408px;
+    height: 480px;
+    margin: 152px 0 0 0;
+    border-radius: 16px;
+}
+.container__button {
+    width: 1316px;
+    height: 440px;
+    display: flex;
+    flex-direction: row;
+    margin: 72px 60px 63px 64px;
+    align-items: center;
+    justify-content: center;
+}
+.container__button p {
+    font-family: "Avenir-Heavy";
+    color: var(--color-3);
+    font-size: 40px;
+    width: 368px;
+    height: 55px;
+}
+.objects1{
+    margin: 0 40px 0 0;
+}
+.objects2{
+    margin: 0 40px 0 0;
+}
+.objects3{
+    margin: 0 0 0 0;
+}
