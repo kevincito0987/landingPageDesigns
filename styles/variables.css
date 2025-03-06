@@ -167,6 +167,8 @@
 @font-face {
     font-family: "WorkSans-Medium";
     src: url(../src/fonts/Work_Sans/static/WorkSans-Medium.ttf);
+}
+@font-face {
     font-family: "Avenir-Heavy";
     src: url(../src/fonts/Avenir/Avenir-Heavy.ttf);
 }
