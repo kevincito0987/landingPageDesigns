@@ -30,7 +30,6 @@ main > p {
     font-size: 20px;
     color: var(--color-135);
     font-family: "Bitter-Bold";
-    margin: 20px 0;
 }
 
 .card-container {
