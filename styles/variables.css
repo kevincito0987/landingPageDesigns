@@ -147,52 +147,6 @@
     --color-146: #E9E9E9;
     --color-147: #0C0C0C;  
 }
-:root{
-    /* page 7 */
-    --linear-gradient-1: linear-gradient(180deg, #00000000 0%, #00000049 100%);
-    /* page 8 */
-    --linear-gradient-2: linear-gradient(180deg, #9C2004 0%, #AB2706 100%);
-    /* page 9 */
-    --linear-gradient-3: linear-gradient(180deg, #FFFFFF 0%, #FFFFFF 60%); 
-    --linear-gradient-4: linear-gradient(180deg, #C8CCCF 0%, #97A3A3 100%);
-    /* page 16 */
-    --linear-gradient-5: linear-gradient(180deg, rgba(0, 0, 0, 0.8) 0%, rgba(0, 0, 0, 0.15) 100%);
-    --linear-gradient-6: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 100%);
-    --linear-gradient-7: linear-gradient(180deg, #09212C 0%, #043E49 100%);
-    /* page 21 */
-    --linear-gradient-8: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 1) 100%);
-    /* page 23 */
-    --linear-gradient-9: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0.5) 100%);
-    /* page 25 */
-    --linear-gradient-10: linear-gradient(180deg, rgba(255, 253, 252, 1) 0%, rgba(255, 253, 252, 0.53) 100%);
-    /* page 26 */
-    --linear-gradient-11: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
-    /* page 27 */
-    --linear-gradient-12: linear-gradient(180deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 63%, rgba(0, 0, 0, 0) 100%);
-    /* page 28 */
-    --linear-gradient-13: linear-gradient(180deg, rgba(0, 0, 0, 0) 2%, rgba(0, 0, 0, 0.37) 100%);
-    /* page 29 */
-    --linear-gradient-14: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.59) 100%);
-    --linear-gradient-15: linear-gradient(180deg, rgba(0, 0, 0, 0.43) 0%, rgba(0, 0, 0, 1) 100%, rgba(0, 0, 0, 0) 100%);
-    /* page 36 */
-    --linear-gradient-16: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
-    /* page 43 */
-    --linear-gradient-17: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.5) 100%);
-    /* page 44 */
-    --linear-gradient-18: linear-gradient(180deg, rgba(255, 255, 255, 0.9) 0%, rgba(255, 255, 255, 0.25) 100%);
-    --linear-gradient-19: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
-    /* page 48 */
-    --linear-gradient-20:  linear-gradient(180deg, #FBD542 0%, #FAD13A 100%);
-    /* page 49 */
-    --linear-gradient-21: linear-gradient(180deg, #F8D696 0%, #EABF61 100%);
-    /* page 50 */
-    --linear-gradient-22: linear-gradient(180deg, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0.82) 100%);
-    --linear-gradient-23: linear-gradient(180deg, #BFDAE6 0%, #F7C067 100%);
-    /* page 51 */
-    --linear-gradient-24: linear-gradient(180deg, #1E5C60 0%, #429BA9 100%);
-    /* page 54 */
-    --linear-gradient-25: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 0) 100%);
-}
 
 @font-face {
     font-family: "Propins-Bold";
@@ -209,4 +163,52 @@
 @font-face {
     font-family: "Propins-SemiBold";
     src: url(../src/fonts/Poppins/Poppins-SemiBold.ttf);
+}
+@font-face {
+    font-family: "WorkSans-Bold";
+    src: url(../src/fonts/Work_Sans/static/WorkSans-Bold.ttf);
+}
+@font-face {
+    font-family: "WorkSans-Light";
+    src: url(../src/fonts/Work_Sans/static/WorkSans-Light.ttf);
+}
+@font-face {
+    font-family: "WorkSans-Medium";
+    src: url(../src/fonts/Work_Sans/static/WorkSans-Medium.ttf);
+}
+@font-face {
+    font-family: "Avenir-Heavy";
+    src: url(../src/fonts/Avenir/Avenir-Heavy.ttf);
+}
+@font-face {
+    font-family: "Avenir-Roman";
+    src: url(../src/fonts/Avenir/Avenir-Roman.ttf);
+}
+@font-face {
+    font-family: "Propins-Regular";
+    src: url(../src/fonts/Poppins/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: "Avenir-Book";
+    src: url(../src/fonts/Avenir/Avenir-Book.ttf);
+}
+@font-face {
+    font-family: "Times-Bold";
+    src: url(../src/fonts/Times/Times-Bold.ttf);
+}
+@font-face {
+    font-family: "Times-Regular";
+    src: url(../src/fonts/Times/Times-Regular.ttf);
+}
+@font-face {
+    font-family: "Bitter-Bold";
+    src: url(../src/fonts/Bitter/static/Bitter-Bold.ttf);
+}
+@font-face {
+    font-family: "Helvetica-Regular";
+    src: url(../src/fonts/helvetica/Helvetica.ttf);
+}
+@font-face {
+    font-family: "Lato-Bold";
+    src: url(../src/fonts/Lato/static/Lato-Bold.ttf);
 }
