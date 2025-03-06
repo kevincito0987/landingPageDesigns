@@ -149,6 +149,12 @@
 }
 
 @font-face {
+    font-family: "Avenir-Heavy";
+    src: url(../src/fonts/Avenir/Avenir-Heavy.ttf);
+}
+@font-face {
+    font-family: "Avenir-Roman";
+    src: url(../src/fonts/Avenir/Avenir-Roman.ttf);
     font-family: "Bitter-Bold";
     src: url(../src/fonts/Bitter/static/Bitter-Bold.ttf);
 }
