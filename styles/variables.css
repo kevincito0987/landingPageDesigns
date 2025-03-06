@@ -149,6 +149,14 @@
 }
 
 @font-face {
+    font-family: "Propins-Bold";
+    src: url(../src/fonts/Poppins/Poppins-Bold.ttf);
+}
+@font-face {
+    font-family: "Propins-Regular";
+    src: url(../src/fonts/Poppins/Poppins-Regular.ttf);
+}
+@font-face {
     font-family: "WorkSans-Bold";
     src: url(../src/fonts/Work_Sans/static/WorkSans-Bold.ttf);
 }
