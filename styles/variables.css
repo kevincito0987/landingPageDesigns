@@ -177,6 +177,14 @@
     src: url(../src/fonts/Avenir/Avenir-Roman.ttf);
 }
 @font-face {
+    font-family: "Propins-Regular";
+    src: url(../src/fonts/Poppins/Poppins-Regular.ttf);
+}
+@font-face {
+    font-family: "Avenir-Book";
+    src: url(../src/fonts/Avenir/Avenir-Book.ttf);
+}
+@font-face {
     font-family: "Bitter-Bold";
     src: url(../src/fonts/Bitter/static/Bitter-Bold.ttf);
 }
