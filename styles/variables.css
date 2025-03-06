@@ -195,6 +195,14 @@
 }
 
 @font-face {
-    font-family: "example";
-    src: url(../storage/fonts/example.ttf);
+    font-family: "Propins-SemiBold";
+    src: url(../src/fonts/Poppins/Poppins-SemiBold.ttf);
+}
+@font-face {
+    font-family: "Avenir-Roman";
+    src: url(../src/fonts/Avenir/Avenir-Roman.ttf);
+}
+@font-face {
+    font-family: "Avenir-Heavy";
+    src: url(../src/fonts/Avenir/Avenir-Heavy.ttf);
 }
