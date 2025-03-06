@@ -146,6 +146,7 @@
     --color-145: #12141B;
     --color-146: #E9E9E9;
     --color-147: #0C0C0C;  
+    --color-148: #63E1E1;
 }
 :root{
     /* page 7 */
@@ -195,6 +196,10 @@
 }
 
 @font-face {
-    font-family: "example";
-    src: url(../storage/fonts/example.ttf);
+    font-family: "Avenir-Heavy";
+    src: url(../src/fonts/Avenir/Avenir-Heavy.ttf);
+}
+@font-face {
+    font-family: "Avenir-Roman";
+    src: url(../src/fonts/Avenir/Avenir-Roman.ttf);
 }
